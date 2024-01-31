@@ -1,13 +1,13 @@
 function osszegzes(l){
-    let ossz=0
-    for (let i = 0; i < l.length; i++){
+    var ossz=0
+    for (var i = 0; i < l.length; i++){
         ossz+l[i] 
     }
     return(ossz)
 }
 function megszamlakas(l){
-    let c = 0
-    for (let i = 0; i< l.length; i++){
+    var c = 0
+    for (var i = 0; i< l.length; i++){
         c++
     }
     return(c)
