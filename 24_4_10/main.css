@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(44, 44, 44);
+    color:rgb(255, 249, 232)
+}
+img[width] {
+    border:5px solid rgb(0, 247, 255);
+    }
+img[width="100px"] {
+    border:5px solid rgb(0, 38, 255);
+    }
+a[title~="puskas"] {
+    color:green
+}
+p[lang|="en"] {
+    
+    color:rgb(255, 0, 157);
+}
+img[width^="2"]  
+    {border:5px solid red;} 
+img[width$="5"]  
+    {border:5px solid rgb(85, 180, 152);} 
+img[title*="jimmy"]  
+    {border:5px solid rgb(255, 238, 0);} 
