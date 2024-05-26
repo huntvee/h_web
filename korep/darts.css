@@ -1,34 +1,64 @@
 body {
-    background-color:#202020;
-    color:#3C3C3C;
+    background-color: #202020;
+    color: #3C3C3C;
 }
-a{
-    color:#8b0000;
+
+a {
+    color: #8B0000;
 }
-a:visited {
-    color:#8b0000;
-}
-a:link {
-    color:#8b0000;
-}
+
 table {
+    margin: auto;
     width: 800px;
-    background-color: gold;
-    border: 2px solid;
-    padding: 10px;
-    margin-left:auto;
-    margin-right:auto;
+    background-color: #FFD700;
+    border-collapse: collapse;
+    border: 2px solid #000;
 }
-h1{
+
+td {
+    padding: 10px;
+}
+
+#sor {
+    width: 150px;
+    vertical-align: top;
+}
+
+h1 {
     text-align: center;
 }
-hr{
+
+hr {
     width: 50%;
 }
-ul li{
+
+ul {
     list-style-type: circle;
 }
-ul img{
+
+p {
+    text-align: justify;
+}
+
+#tabla {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#elhelyezes {
+    float: left;
+    margin-right: 10px;
+}
+
+#hely {
+    padding-top: 10px;
+}
+
+#dartboard {
+    float: right;
+    margin-left: 10px;
+}
+.emilbuzi{
+    nigga
 }
